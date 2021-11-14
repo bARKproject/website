@@ -1,0 +1,19 @@
+{
+    "server": {
+        "port": 2111
+    },
+    "views": {
+        "path": "app/views"
+    },
+    "static":{
+        "path":"app/static"
+    },
+    "data": {
+        "path": "app/data"
+    },
+    "settings": {
+        "siteName": "bark",
+        "snipcartApiKey": "#",
+        "defaultDonation" : 25
+    }
+}

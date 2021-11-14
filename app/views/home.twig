@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'blocks/head.twig' %}
+
+<body>
+    <div class="preloader">
+        <div class="preloader-elements">
+            <span class="first" data-bg="images/preloader-01.svg"></span>
+            <span class="second" data-bg="images/preloader-02.svg"></span>
+            <span class="third" data-bg="images/preloader-03.svg"></span>
+            <span class="fourth" data-bg="images/preloader-04.svg"></span>
+        </div>
+    </div>
+
+    <div id="cd-content" class="default-theme">
+        <header>
+            {% include 'blocks/navbar.twig' %}
+            <a href="#" class="navbar-brand fixed-brand">
+                <img src="images/logo.svg" alt="cryptdojo-logo" class="img-fluid">
+            </a>
+        </header>
+
+        <div id="fullPage">
+            {% include 'section/front.twig' %}
+            {% include 'section/about.twig' %}
+            {% include 'section/about-2.twig' %}
+            {% include 'section/distribution.twig' %}
+            {% include 'section/roadmap.twig' %}
+            {% include 'section/community.twig' %}
+            {% include 'section/partners.twig' %}
+            {% include 'section/wallets.twig' %}
+            {% include 'section/faq.twig' %}
+            {% include 'blocks/footer.twig' %}
+        </div>
+    </div>
+    {% include 'blocks/scripts.twig' %}
+</body>
+
+</html>
