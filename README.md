@@ -1,6 +1,12 @@
 # bARK Project
 
-This post/tutorial focuses on Node.js for e-commerce.
+The code for this website is seperated in twig templates.
+
+- Blocks (main templates for head, navbar, footer, scripts)
+- Section (for the frontpage content)
+- Root (homepage, error page, 404 page)
+
+The website runs on node-express.
 
 Requirements:
 
@@ -26,7 +32,7 @@ Download and install
 
 ```
 git clone https://github.com/barkproject/website
-cd mcblack && yarn install
+cd website && yarn install
 pm2 start bark.js --watch
 ```
 
