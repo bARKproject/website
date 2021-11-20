@@ -1,6 +1,6 @@
 {
     "server": {
-        "port": 2111
+        "port": 4242
     },
     "views": {
         "path": "app/views"
